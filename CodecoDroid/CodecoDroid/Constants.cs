@@ -6,6 +6,6 @@ namespace CodecoDroid
 {
     public static class Constants
     {
-        const string ServiceIdFileName = "_service_ids.txt";
+        public const string ServiceIdFileName = "_service_ids.txt";
     }
 }

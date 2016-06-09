@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ObservableCollectionExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainShell.xaml.cs">
       <DependentUpon>MainShell.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -20,6 +21,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SavedFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CodeService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\FileService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\KeyService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ActiveFileView.xaml.cs">
